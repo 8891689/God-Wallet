@@ -111,7 +111,7 @@ P2PKH Address (Compressed): GW71ipqds97hWu1yh4aJzq1hPiKPwEecH9
 P2PKH Address (Uncompressed): Ge72cijCyPRrrdk3wa5TaZAHS5Gcwy7KUj
 
 ```
-# Input WIF format private key
+# Enter the private key in WIF or hexadecimal raw format
 ```sh
 ./god 0000000000000000000000000000000000000000000000000000000000000001
 WIF Private Key (Compressed): KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn
