@@ -1,7 +1,7 @@
 # God Wallet 
 The principle is to let God throw the sieve 256 times, each time with 0 and 1, and get 256 values ​​as the result, which determine the final private key. The original intention of designing the God wallet is to protect the safety of everyone's or your own funds. It is better to entrust the funds to God for safekeeping than to entrust the funds to others. Other people's platforms may go bankrupt and run away, but God is eternal.
 
-#God Flipping a Coin (Code Simulation):
+# God Flipping a Coin (Code Simulation):
 
 1. God's Tool: God uses a super-advanced "random number generator" (in our code, rand_s on Windows, and /dev/urandom on Linux/macOS). This generator produces a sequence of numbers that appear to be completely patternless.
 
@@ -19,7 +19,7 @@ The principle is to let God throw the sieve 256 times, each time with 0 and 1, a
 
 4. Repeated Flips: God repeats this process many times, each time taking a new number from the "random number generator" and recording either "heads" or "tails."
 
-#Principles:
+# Principles:
 
 1. Uniformity of the Random Number Generator: The numbers produced by that "super-advanced random number generator" have an equal chance of having '0' or '1' as their last digit. This is like an ideal coin, where heads and tails have an equal probability of 1/2.
 
@@ -27,7 +27,7 @@ The principle is to let God throw the sieve 256 times, each time with 0 and 1, a
 
 3. Binary Representation: We use '0' and '1' to represent the two sides of the coin because computers internally process information in binary. Looking only at the last digit of the random number is equivalent to caring only about whether the random number is odd or even.
 
-#In Simple Terms:
+# In Simple Terms:
 
 The "God flipping a coin" simulation in this code uses a very powerful "random number generator" within the computer to ensure that each coin flip (generating a '0' or '1') has an equal chance, and that each flip is independent. The resulting string of 0s and 1s is like a record of God's coin flips.
 
@@ -42,7 +42,7 @@ or
 make
 ```
 
-###🚀 Usage
+# 🚀 Usage
 After successful compilation, you can run the tool from the command line and pass the private key (in hex or WIF format), or let God give you a private key, as a parameter:
 
 ```sh
@@ -50,7 +50,7 @@ After successful compilation, you can run the tool from the command line and pas
 ./god
 
 ```
-### Example
+# Example
 If you have a private key, please enter the hexadecimal private key
 ```sh
 
@@ -111,7 +111,7 @@ P2PKH Address (Compressed): GW71ipqds97hWu1yh4aJzq1hPiKPwEecH9
 P2PKH Address (Uncompressed): Ge72cijCyPRrrdk3wa5TaZAHS5Gcwy7KUj
 
 ```
-### Input WIF format private key
+# Input WIF format private key
 ```sh
 ./god 0000000000000000000000000000000000000000000000000000000000000001
 WIF Private Key (Compressed): KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn
@@ -164,28 +164,27 @@ P2PKH Address (Uncompressed): GX8HzDj1HqeCzqYFFzoEBzPwdvKZ4H2538
 
 ```
 
-### ⚠️ Notes
+# ⚠️ Notes
 
 ⚠️ Security
 Please use this tool with caution, especially with private key generation and handling. Please run it in an offline or secure environment and avoid disclosing your private keys!
 
 Private key disclosure will lead to loss of funds! Please store and manage your keys securely.
 
-### ⚙️ Dependencies
-**No dependencies are required. This program is all hand-crafted by me, using AI to assist in creation.
+# ⚙️ Dependencies
+ No dependencies are required. This program is all hand-crafted by me, using AI to assist in creation.
 
-** Thanks: gemini, ChatGPT, deepseek
-
-### Sponsorship
+ Thanks: gemini, ChatGPT, deepseek
+# Sponsorship
 If this project has been helpful to you, please consider sponsoring. Your support is greatly appreciated. Thank you!
-
+```
 BTC: bc1qt3nh2e6gjsfkfacnkglt5uqghzvlrr6jahyj2k
 ETH: 0xD6503e5994bF46052338a9286Bc43bC1c3811Fa1
 DOGE: DTszb9cPALbG9ESNJMFJt4ECqWGRCgucky
 TRX: TAHUmjyzg7B3Nndv264zWYUhQ9HUmX4Xu4
+```
+# 📜 Disclaimer
+- ⚠️ Reminder: Do not input real private keys on connected devices!
+-
+- This tool is provided for learning and research purposes only. Please use it with an understanding of the relevant risks. The developers are not responsible for financial losses or legal liability -caused by the use of this tool.
 
-### 📜 Disclaimer
--⚠️ Reminder: Do not input real private keys on connected devices!
--
--This tool is provided for learning and research purposes only. Please use it with an understanding of the relevant risks. The developers are not responsible for financial losses or legal liability -caused by the use of this tool.
--
